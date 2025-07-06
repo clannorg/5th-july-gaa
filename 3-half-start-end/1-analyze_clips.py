@@ -49,7 +49,7 @@ def analyze_clip_for_halftime(clip_path, clip_name, output_dir):
             raise ValueError(f"Video processing failed for {clip_name}")
         
         # Create the model
-        model = genai.GenerativeModel("gemini-2.5-pro")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         
         # Natural language prompt for halftime detection
         prompt = f"""

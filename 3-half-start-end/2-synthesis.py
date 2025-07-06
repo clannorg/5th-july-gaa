@@ -23,7 +23,7 @@ def main():
     print("🎯 SINGLE REQUEST SYNTHESIS")
     print("=" * 50)
     print("Goal: Send all clip descriptions in ONE request")
-    print("Model: Gemini 2.5 Flash (higher rate limits)")
+    print("Model: Gemini 2.5 Pro (better reasoning for complex analysis)")
     print()
     
     # Read all 337 txt files
@@ -153,7 +153,7 @@ CLIPS TO ANALYZE:
     print(f"🔄 Sending ONE request to Gemini 2.5 Flash...")
     
     try:
-        # Send ONE request to Gemini 2.5 Flash (higher rate limits)
+        # Send ONE request to Gemini 2.5 Pro (better reasoning for complex analysis)
         model = genai.GenerativeModel("gemini-2.5-flash")
         
         start_time = time.time()
@@ -170,7 +170,7 @@ CLIPS TO ANALYZE:
         with open(output_file, 'w') as f:
             f.write(f"SINGLE REQUEST SYNTHESIS RESULTS\n")
             f.write(f"Generated: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write(f"Model: Gemini 2.5 Flash\n")
+            f.write(f"Model: Gemini 2.5 Pro\n")
             f.write(f"Input clips: {len(description_files)}\n")
             f.write(f"Text size: {total_chars:,} characters ({total_chars/1024/1024:.1f} MB)\n")
             f.write(f"Processing time: {processing_time:.1f} seconds\n")
