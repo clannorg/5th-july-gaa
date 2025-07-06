@@ -8,36 +8,28 @@ git clone https://github.com/clannorg/5th-july-gaa.git
 cd 5th-july-gaa
 ```
 
-### 2. System Dependencies
+### 2. Create and Activate Virtual Environment
 ```bash
-# Install system dependencies
-bash runpod.sh
+# Create virtual environment (if not already present)
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate
 ```
 
-### 3. Conda Environment Setup
-```bash
-# Initialize conda (only needed once per runpod instance)
-source /workspace/miniconda3/etc/profile.d/conda.sh
-conda init bash
-source ~/.bashrc
-
-# Activate the conda environment
-conda activate hooper-ai
-```
-
-### 4. Python Dependencies
+### 3. Install Python Dependencies
 ```bash
 # Install required Python packages
 pip install google-generativeai python-dotenv opencv-python
 ```
 
-### 5. Environment Variables
+### 4. Environment Variables
 ```bash
 # Create .env file with your API key
 echo "GEMINI_API_KEY=your_api_key_here" > .env
 ```
 
-### 6. Verify Setup
+### 5. Verify Setup
 ```bash
 # Test the environment
 python -c "import google.generativeai as genai; print('✅ Setup complete!')"
@@ -98,7 +90,7 @@ python single-request-synthesis.py
 ### Video Processing Issues
 - Ensure clips are in correct format (MP4)
 - Check file paths in scripts
-- Verify conda environment is active
+- Verify virtual environment is active: `source venv/bin/activate`
 
 ## 📊 Pipeline Performance
 
