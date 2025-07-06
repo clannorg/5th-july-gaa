@@ -11,6 +11,10 @@ from pathlib import Path
 import concurrent.futures
 from threading import Lock
 import argparse
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configure Gemini
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
