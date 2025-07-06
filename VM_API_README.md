@@ -9,7 +9,7 @@ This VM serves as the backend analysis engine for the GAA match analysis web app
 ```
 Input: Video URL (YouTube, Vimeo, direct MP4, etc.)
 Format: String URL
-Example: "https://www.youtube.com/watch?v=xyz123"
+Example: "https://app.veo.co/matches/20250608-8-jun-2025-122805-27ca4c57/"
 ```
 
 ### **Expected Video Specifications**

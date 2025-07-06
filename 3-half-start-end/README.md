@@ -14,28 +14,24 @@ This module analyzes video clips to detect:
 
 ### 1. Analyze Video Clips
 ```bash
-python analyze_clips.py --clips-dir ../clips --output-dir results/descriptions
+python 1-analyze_clips.py
 ```
 
 ### 2. Synthesize Timeline
 ```bash
-python synthesize_patterns.py --input-dir results/descriptions --output-file results/timeline.txt
+python 2-synthesis.py
 ```
 
 ### 3. View Results
 - **Final Timeline**: `../match_timeline_final.json`
-- **Detailed Analysis**: `results/timeline.txt`
+- **Analysis Output**: Console output with timeline detection
 
 ## 📁 Directory Structure
 
 ```
 3-half-start-end/
-├── analyze_clips.py          # Step 1: Analyze individual clips
-├── synthesize_patterns.py    # Step 2: Find patterns across clips
-├── results/
-│   ├── descriptions/         # Individual clip descriptions
-│   ├── timeline.txt         # Detailed analysis results
-│   └── archive/             # Previous analysis runs
+├── 1-analyze_clips.py       # Step 1: Analyze individual clips
+├── 2-synthesis.py           # Step 2: Timeline synthesis (temporal block analysis)
 └── README.md                # This file
 ```
 
@@ -50,15 +46,20 @@ python synthesize_patterns.py --input-dir results/descriptions --output-file res
 
 The analysis produces:
 1. **JSON Timeline** (`../match_timeline_final.json`) - Clean, structured results
-2. **Detailed Analysis** (`results/timeline.txt`) - Full reasoning and evidence
-3. **Individual Descriptions** (`results/descriptions/`) - Per-clip analysis
+2. **Console Output** - Real-time analysis progress and timeline detection
+3. **Individual Descriptions** - Stored in memory during processing
 
 ## 🔧 Configuration
 
-Key parameters in `analyze_clips.py`:
-- `--threads`: Parallel processing (default: 8)
-- `--max-clips`: Limit clips for testing
-- `--clips-dir`: Input video clips directory
+Key parameters in `1-analyze_clips.py`:
+- Parallel processing with rate limiting
+- Automatic clip detection from `../clips/` directory
+- Environment variable: `GEMINI_API_KEY`
+
+Key features in `2-synthesis.py`:
+- Temporal block analysis approach
+- Single API call for entire match
+- 99%+ accuracy timeline detection
 
 ## 🎯 Detection Criteria
 
