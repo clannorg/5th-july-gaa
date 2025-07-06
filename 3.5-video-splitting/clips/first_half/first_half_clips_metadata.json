@@ -1,0 +1,1381 @@
+{
+  "source_video": {
+    "path": "match_videos/first_half_optimized.mp4",
+    "half_name": "first_half",
+    "duration": 2040.005,
+    "size_gb": 1.1068378668278456,
+    "resolution": "1920x1080",
+    "fps": 29.97002997002997,
+    "codec": "h264"
+  },
+  "processing_info": {
+    "clip_duration": 15,
+    "total_clips": 136,
+    "processing_time": 4.702642917633057,
+    "clips_per_second": 28.919907886276807,
+    "workers_used": 7,
+    "timestamp": "2025-07-06T18:20:04.325224"
+  },
+  "clips": [
+    {
+      "clip_number": 20,
+      "filename": "clip_04m45s.mp4",
+      "start_time": 285,
+      "duration": 15,
+      "timestamp": "04m45s",
+      "file_path": "clips/first_half/clip_04m45s.mp4",
+      "file_size": 9143225,
+      "success": true
+    },
+    {
+      "clip_number": 21,
+      "filename": "clip_05m00s.mp4",
+      "start_time": 300,
+      "duration": 15,
+      "timestamp": "05m00s",
+      "file_path": "clips/first_half/clip_05m00s.mp4",
+      "file_size": 8539128,
+      "success": true
+    },
+    {
+      "clip_number": 22,
+      "filename": "clip_05m15s.mp4",
+      "start_time": 315,
+      "duration": 15,
+      "timestamp": "05m15s",
+      "file_path": "clips/first_half/clip_05m15s.mp4",
+      "file_size": 9107580,
+      "success": true
+    },
+    {
+      "clip_number": 23,
+      "filename": "clip_05m30s.mp4",
+      "start_time": 330,
+      "duration": 15,
+      "timestamp": "05m30s",
+      "file_path": "clips/first_half/clip_05m30s.mp4",
+      "file_size": 9245817,
+      "success": true
+    },
+    {
+      "clip_number": 24,
+      "filename": "clip_05m45s.mp4",
+      "start_time": 345,
+      "duration": 15,
+      "timestamp": "05m45s",
+      "file_path": "clips/first_half/clip_05m45s.mp4",
+      "file_size": 10322516,
+      "success": true
+    },
+    {
+      "clip_number": 25,
+      "filename": "clip_06m00s.mp4",
+      "start_time": 360,
+      "duration": 15,
+      "timestamp": "06m00s",
+      "file_path": "clips/first_half/clip_06m00s.mp4",
+      "file_size": 8823907,
+      "success": true
+    },
+    {
+      "clip_number": 26,
+      "filename": "clip_06m15s.mp4",
+      "start_time": 375,
+      "duration": 15,
+      "timestamp": "06m15s",
+      "file_path": "clips/first_half/clip_06m15s.mp4",
+      "file_size": 8660023,
+      "success": true
+    },
+    {
+      "clip_number": 27,
+      "filename": "clip_06m30s.mp4",
+      "start_time": 390,
+      "duration": 15,
+      "timestamp": "06m30s",
+      "file_path": "clips/first_half/clip_06m30s.mp4",
+      "file_size": 8466057,
+      "success": true
+    },
+    {
+      "clip_number": 28,
+      "filename": "clip_06m45s.mp4",
+      "start_time": 405,
+      "duration": 15,
+      "timestamp": "06m45s",
+      "file_path": "clips/first_half/clip_06m45s.mp4",
+      "file_size": 8736077,
+      "success": true
+    },
+    {
+      "clip_number": 29,
+      "filename": "clip_07m00s.mp4",
+      "start_time": 420,
+      "duration": 15,
+      "timestamp": "07m00s",
+      "file_path": "clips/first_half/clip_07m00s.mp4",
+      "file_size": 8744468,
+      "success": true
+    },
+    {
+      "clip_number": 30,
+      "filename": "clip_07m15s.mp4",
+      "start_time": 435,
+      "duration": 15,
+      "timestamp": "07m15s",
+      "file_path": "clips/first_half/clip_07m15s.mp4",
+      "file_size": 10499095,
+      "success": true
+    },
+    {
+      "clip_number": 31,
+      "filename": "clip_07m30s.mp4",
+      "start_time": 450,
+      "duration": 15,
+      "timestamp": "07m30s",
+      "file_path": "clips/first_half/clip_07m30s.mp4",
+      "file_size": 9631804,
+      "success": true
+    },
+    {
+      "clip_number": 32,
+      "filename": "clip_07m45s.mp4",
+      "start_time": 465,
+      "duration": 15,
+      "timestamp": "07m45s",
+      "file_path": "clips/first_half/clip_07m45s.mp4",
+      "file_size": 9166189,
+      "success": true
+    },
+    {
+      "clip_number": 33,
+      "filename": "clip_08m00s.mp4",
+      "start_time": 480,
+      "duration": 15,
+      "timestamp": "08m00s",
+      "file_path": "clips/first_half/clip_08m00s.mp4",
+      "file_size": 9489928,
+      "success": true
+    },
+    {
+      "clip_number": 34,
+      "filename": "clip_08m15s.mp4",
+      "start_time": 495,
+      "duration": 15,
+      "timestamp": "08m15s",
+      "file_path": "clips/first_half/clip_08m15s.mp4",
+      "file_size": 9382221,
+      "success": true
+    },
+    {
+      "clip_number": 35,
+      "filename": "clip_08m30s.mp4",
+      "start_time": 510,
+      "duration": 15,
+      "timestamp": "08m30s",
+      "file_path": "clips/first_half/clip_08m30s.mp4",
+      "file_size": 9514422,
+      "success": true
+    },
+    {
+      "clip_number": 36,
+      "filename": "clip_08m45s.mp4",
+      "start_time": 525,
+      "duration": 15,
+      "timestamp": "08m45s",
+      "file_path": "clips/first_half/clip_08m45s.mp4",
+      "file_size": 8459692,
+      "success": true
+    },
+    {
+      "clip_number": 37,
+      "filename": "clip_09m00s.mp4",
+      "start_time": 540,
+      "duration": 15,
+      "timestamp": "09m00s",
+      "file_path": "clips/first_half/clip_09m00s.mp4",
+      "file_size": 8650461,
+      "success": true
+    },
+    {
+      "clip_number": 38,
+      "filename": "clip_09m15s.mp4",
+      "start_time": 555,
+      "duration": 15,
+      "timestamp": "09m15s",
+      "file_path": "clips/first_half/clip_09m15s.mp4",
+      "file_size": 9155936,
+      "success": true
+    },
+    {
+      "clip_number": 96,
+      "filename": "clip_23m45s.mp4",
+      "start_time": 1425,
+      "duration": 15,
+      "timestamp": "23m45s",
+      "file_path": "clips/first_half/clip_23m45s.mp4",
+      "file_size": 9412272,
+      "success": true
+    },
+    {
+      "clip_number": 97,
+      "filename": "clip_24m00s.mp4",
+      "start_time": 1440,
+      "duration": 15,
+      "timestamp": "24m00s",
+      "file_path": "clips/first_half/clip_24m00s.mp4",
+      "file_size": 10617620,
+      "success": true
+    },
+    {
+      "clip_number": 98,
+      "filename": "clip_24m15s.mp4",
+      "start_time": 1455,
+      "duration": 15,
+      "timestamp": "24m15s",
+      "file_path": "clips/first_half/clip_24m15s.mp4",
+      "file_size": 9060183,
+      "success": true
+    },
+    {
+      "clip_number": 99,
+      "filename": "clip_24m30s.mp4",
+      "start_time": 1470,
+      "duration": 15,
+      "timestamp": "24m30s",
+      "file_path": "clips/first_half/clip_24m30s.mp4",
+      "file_size": 8630011,
+      "success": true
+    },
+    {
+      "clip_number": 100,
+      "filename": "clip_24m45s.mp4",
+      "start_time": 1485,
+      "duration": 15,
+      "timestamp": "24m45s",
+      "file_path": "clips/first_half/clip_24m45s.mp4",
+      "file_size": 9148109,
+      "success": true
+    },
+    {
+      "clip_number": 101,
+      "filename": "clip_25m00s.mp4",
+      "start_time": 1500,
+      "duration": 15,
+      "timestamp": "25m00s",
+      "file_path": "clips/first_half/clip_25m00s.mp4",
+      "file_size": 8687289,
+      "success": true
+    },
+    {
+      "clip_number": 102,
+      "filename": "clip_25m15s.mp4",
+      "start_time": 1515,
+      "duration": 15,
+      "timestamp": "25m15s",
+      "file_path": "clips/first_half/clip_25m15s.mp4",
+      "file_size": 8718873,
+      "success": true
+    },
+    {
+      "clip_number": 103,
+      "filename": "clip_25m30s.mp4",
+      "start_time": 1530,
+      "duration": 15,
+      "timestamp": "25m30s",
+      "file_path": "clips/first_half/clip_25m30s.mp4",
+      "file_size": 9762538,
+      "success": true
+    },
+    {
+      "clip_number": 104,
+      "filename": "clip_25m45s.mp4",
+      "start_time": 1545,
+      "duration": 15,
+      "timestamp": "25m45s",
+      "file_path": "clips/first_half/clip_25m45s.mp4",
+      "file_size": 9680706,
+      "success": true
+    },
+    {
+      "clip_number": 105,
+      "filename": "clip_26m00s.mp4",
+      "start_time": 1560,
+      "duration": 15,
+      "timestamp": "26m00s",
+      "file_path": "clips/first_half/clip_26m00s.mp4",
+      "file_size": 9190516,
+      "success": true
+    },
+    {
+      "clip_number": 106,
+      "filename": "clip_26m15s.mp4",
+      "start_time": 1575,
+      "duration": 15,
+      "timestamp": "26m15s",
+      "file_path": "clips/first_half/clip_26m15s.mp4",
+      "file_size": 10261383,
+      "success": true
+    },
+    {
+      "clip_number": 107,
+      "filename": "clip_26m30s.mp4",
+      "start_time": 1590,
+      "duration": 15,
+      "timestamp": "26m30s",
+      "file_path": "clips/first_half/clip_26m30s.mp4",
+      "file_size": 9311188,
+      "success": true
+    },
+    {
+      "clip_number": 108,
+      "filename": "clip_26m45s.mp4",
+      "start_time": 1605,
+      "duration": 15,
+      "timestamp": "26m45s",
+      "file_path": "clips/first_half/clip_26m45s.mp4",
+      "file_size": 8935451,
+      "success": true
+    },
+    {
+      "clip_number": 109,
+      "filename": "clip_27m00s.mp4",
+      "start_time": 1620,
+      "duration": 15,
+      "timestamp": "27m00s",
+      "file_path": "clips/first_half/clip_27m00s.mp4",
+      "file_size": 10353238,
+      "success": true
+    },
+    {
+      "clip_number": 110,
+      "filename": "clip_27m15s.mp4",
+      "start_time": 1635,
+      "duration": 15,
+      "timestamp": "27m15s",
+      "file_path": "clips/first_half/clip_27m15s.mp4",
+      "file_size": 8464158,
+      "success": true
+    },
+    {
+      "clip_number": 111,
+      "filename": "clip_27m30s.mp4",
+      "start_time": 1650,
+      "duration": 15,
+      "timestamp": "27m30s",
+      "file_path": "clips/first_half/clip_27m30s.mp4",
+      "file_size": 8044049,
+      "success": true
+    },
+    {
+      "clip_number": 112,
+      "filename": "clip_27m45s.mp4",
+      "start_time": 1665,
+      "duration": 15,
+      "timestamp": "27m45s",
+      "file_path": "clips/first_half/clip_27m45s.mp4",
+      "file_size": 8371344,
+      "success": true
+    },
+    {
+      "clip_number": 113,
+      "filename": "clip_28m00s.mp4",
+      "start_time": 1680,
+      "duration": 15,
+      "timestamp": "28m00s",
+      "file_path": "clips/first_half/clip_28m00s.mp4",
+      "file_size": 8606320,
+      "success": true
+    },
+    {
+      "clip_number": 114,
+      "filename": "clip_28m15s.mp4",
+      "start_time": 1695,
+      "duration": 15,
+      "timestamp": "28m15s",
+      "file_path": "clips/first_half/clip_28m15s.mp4",
+      "file_size": 8793405,
+      "success": true
+    },
+    {
+      "clip_number": 77,
+      "filename": "clip_19m00s.mp4",
+      "start_time": 1140,
+      "duration": 15,
+      "timestamp": "19m00s",
+      "file_path": "clips/first_half/clip_19m00s.mp4",
+      "file_size": 10211363,
+      "success": true
+    },
+    {
+      "clip_number": 78,
+      "filename": "clip_19m15s.mp4",
+      "start_time": 1155,
+      "duration": 15,
+      "timestamp": "19m15s",
+      "file_path": "clips/first_half/clip_19m15s.mp4",
+      "file_size": 9417234,
+      "success": true
+    },
+    {
+      "clip_number": 79,
+      "filename": "clip_19m30s.mp4",
+      "start_time": 1170,
+      "duration": 15,
+      "timestamp": "19m30s",
+      "file_path": "clips/first_half/clip_19m30s.mp4",
+      "file_size": 9304161,
+      "success": true
+    },
+    {
+      "clip_number": 80,
+      "filename": "clip_19m45s.mp4",
+      "start_time": 1185,
+      "duration": 15,
+      "timestamp": "19m45s",
+      "file_path": "clips/first_half/clip_19m45s.mp4",
+      "file_size": 9932093,
+      "success": true
+    },
+    {
+      "clip_number": 81,
+      "filename": "clip_20m00s.mp4",
+      "start_time": 1200,
+      "duration": 15,
+      "timestamp": "20m00s",
+      "file_path": "clips/first_half/clip_20m00s.mp4",
+      "file_size": 9095954,
+      "success": true
+    },
+    {
+      "clip_number": 82,
+      "filename": "clip_20m15s.mp4",
+      "start_time": 1215,
+      "duration": 15,
+      "timestamp": "20m15s",
+      "file_path": "clips/first_half/clip_20m15s.mp4",
+      "file_size": 8342214,
+      "success": true
+    },
+    {
+      "clip_number": 83,
+      "filename": "clip_20m30s.mp4",
+      "start_time": 1230,
+      "duration": 15,
+      "timestamp": "20m30s",
+      "file_path": "clips/first_half/clip_20m30s.mp4",
+      "file_size": 8328624,
+      "success": true
+    },
+    {
+      "clip_number": 84,
+      "filename": "clip_20m45s.mp4",
+      "start_time": 1245,
+      "duration": 15,
+      "timestamp": "20m45s",
+      "file_path": "clips/first_half/clip_20m45s.mp4",
+      "file_size": 7829040,
+      "success": true
+    },
+    {
+      "clip_number": 85,
+      "filename": "clip_21m00s.mp4",
+      "start_time": 1260,
+      "duration": 15,
+      "timestamp": "21m00s",
+      "file_path": "clips/first_half/clip_21m00s.mp4",
+      "file_size": 8460945,
+      "success": true
+    },
+    {
+      "clip_number": 86,
+      "filename": "clip_21m15s.mp4",
+      "start_time": 1275,
+      "duration": 15,
+      "timestamp": "21m15s",
+      "file_path": "clips/first_half/clip_21m15s.mp4",
+      "file_size": 9279394,
+      "success": true
+    },
+    {
+      "clip_number": 87,
+      "filename": "clip_21m30s.mp4",
+      "start_time": 1290,
+      "duration": 15,
+      "timestamp": "21m30s",
+      "file_path": "clips/first_half/clip_21m30s.mp4",
+      "file_size": 10130727,
+      "success": true
+    },
+    {
+      "clip_number": 88,
+      "filename": "clip_21m45s.mp4",
+      "start_time": 1305,
+      "duration": 15,
+      "timestamp": "21m45s",
+      "file_path": "clips/first_half/clip_21m45s.mp4",
+      "file_size": 9161629,
+      "success": true
+    },
+    {
+      "clip_number": 89,
+      "filename": "clip_22m00s.mp4",
+      "start_time": 1320,
+      "duration": 15,
+      "timestamp": "22m00s",
+      "file_path": "clips/first_half/clip_22m00s.mp4",
+      "file_size": 10070051,
+      "success": true
+    },
+    {
+      "clip_number": 90,
+      "filename": "clip_22m15s.mp4",
+      "start_time": 1335,
+      "duration": 15,
+      "timestamp": "22m15s",
+      "file_path": "clips/first_half/clip_22m15s.mp4",
+      "file_size": 9124967,
+      "success": true
+    },
+    {
+      "clip_number": 91,
+      "filename": "clip_22m30s.mp4",
+      "start_time": 1350,
+      "duration": 15,
+      "timestamp": "22m30s",
+      "file_path": "clips/first_half/clip_22m30s.mp4",
+      "file_size": 8801798,
+      "success": true
+    },
+    {
+      "clip_number": 92,
+      "filename": "clip_22m45s.mp4",
+      "start_time": 1365,
+      "duration": 15,
+      "timestamp": "22m45s",
+      "file_path": "clips/first_half/clip_22m45s.mp4",
+      "file_size": 9842418,
+      "success": true
+    },
+    {
+      "clip_number": 93,
+      "filename": "clip_23m00s.mp4",
+      "start_time": 1380,
+      "duration": 15,
+      "timestamp": "23m00s",
+      "file_path": "clips/first_half/clip_23m00s.mp4",
+      "file_size": 9448245,
+      "success": true
+    },
+    {
+      "clip_number": 94,
+      "filename": "clip_23m15s.mp4",
+      "start_time": 1395,
+      "duration": 15,
+      "timestamp": "23m15s",
+      "file_path": "clips/first_half/clip_23m15s.mp4",
+      "file_size": 9132972,
+      "success": true
+    },
+    {
+      "clip_number": 95,
+      "filename": "clip_23m30s.mp4",
+      "start_time": 1410,
+      "duration": 15,
+      "timestamp": "23m30s",
+      "file_path": "clips/first_half/clip_23m30s.mp4",
+      "file_size": 9445672,
+      "success": true
+    },
+    {
+      "clip_number": 115,
+      "filename": "clip_28m30s.mp4",
+      "start_time": 1710,
+      "duration": 15,
+      "timestamp": "28m30s",
+      "file_path": "clips/first_half/clip_28m30s.mp4",
+      "file_size": 9028963,
+      "success": true
+    },
+    {
+      "clip_number": 116,
+      "filename": "clip_28m45s.mp4",
+      "start_time": 1725,
+      "duration": 15,
+      "timestamp": "28m45s",
+      "file_path": "clips/first_half/clip_28m45s.mp4",
+      "file_size": 9314099,
+      "success": true
+    },
+    {
+      "clip_number": 117,
+      "filename": "clip_29m00s.mp4",
+      "start_time": 1740,
+      "duration": 15,
+      "timestamp": "29m00s",
+      "file_path": "clips/first_half/clip_29m00s.mp4",
+      "file_size": 9306811,
+      "success": true
+    },
+    {
+      "clip_number": 118,
+      "filename": "clip_29m15s.mp4",
+      "start_time": 1755,
+      "duration": 15,
+      "timestamp": "29m15s",
+      "file_path": "clips/first_half/clip_29m15s.mp4",
+      "file_size": 8508973,
+      "success": true
+    },
+    {
+      "clip_number": 119,
+      "filename": "clip_29m30s.mp4",
+      "start_time": 1770,
+      "duration": 15,
+      "timestamp": "29m30s",
+      "file_path": "clips/first_half/clip_29m30s.mp4",
+      "file_size": 10026232,
+      "success": true
+    },
+    {
+      "clip_number": 120,
+      "filename": "clip_29m45s.mp4",
+      "start_time": 1785,
+      "duration": 15,
+      "timestamp": "29m45s",
+      "file_path": "clips/first_half/clip_29m45s.mp4",
+      "file_size": 9644224,
+      "success": true
+    },
+    {
+      "clip_number": 121,
+      "filename": "clip_30m00s.mp4",
+      "start_time": 1800,
+      "duration": 15,
+      "timestamp": "30m00s",
+      "file_path": "clips/first_half/clip_30m00s.mp4",
+      "file_size": 8616436,
+      "success": true
+    },
+    {
+      "clip_number": 122,
+      "filename": "clip_30m15s.mp4",
+      "start_time": 1815,
+      "duration": 15,
+      "timestamp": "30m15s",
+      "file_path": "clips/first_half/clip_30m15s.mp4",
+      "file_size": 7739597,
+      "success": true
+    },
+    {
+      "clip_number": 123,
+      "filename": "clip_30m30s.mp4",
+      "start_time": 1830,
+      "duration": 15,
+      "timestamp": "30m30s",
+      "file_path": "clips/first_half/clip_30m30s.mp4",
+      "file_size": 7688952,
+      "success": true
+    },
+    {
+      "clip_number": 124,
+      "filename": "clip_30m45s.mp4",
+      "start_time": 1845,
+      "duration": 15,
+      "timestamp": "30m45s",
+      "file_path": "clips/first_half/clip_30m45s.mp4",
+      "file_size": 10452094,
+      "success": true
+    },
+    {
+      "clip_number": 125,
+      "filename": "clip_31m00s.mp4",
+      "start_time": 1860,
+      "duration": 15,
+      "timestamp": "31m00s",
+      "file_path": "clips/first_half/clip_31m00s.mp4",
+      "file_size": 8387098,
+      "success": true
+    },
+    {
+      "clip_number": 126,
+      "filename": "clip_31m15s.mp4",
+      "start_time": 1875,
+      "duration": 15,
+      "timestamp": "31m15s",
+      "file_path": "clips/first_half/clip_31m15s.mp4",
+      "file_size": 7899916,
+      "success": true
+    },
+    {
+      "clip_number": 127,
+      "filename": "clip_31m30s.mp4",
+      "start_time": 1890,
+      "duration": 15,
+      "timestamp": "31m30s",
+      "file_path": "clips/first_half/clip_31m30s.mp4",
+      "file_size": 7525801,
+      "success": true
+    },
+    {
+      "clip_number": 128,
+      "filename": "clip_31m45s.mp4",
+      "start_time": 1905,
+      "duration": 15,
+      "timestamp": "31m45s",
+      "file_path": "clips/first_half/clip_31m45s.mp4",
+      "file_size": 8286866,
+      "success": true
+    },
+    {
+      "clip_number": 129,
+      "filename": "clip_32m00s.mp4",
+      "start_time": 1920,
+      "duration": 15,
+      "timestamp": "32m00s",
+      "file_path": "clips/first_half/clip_32m00s.mp4",
+      "file_size": 8956529,
+      "success": true
+    },
+    {
+      "clip_number": 130,
+      "filename": "clip_32m15s.mp4",
+      "start_time": 1935,
+      "duration": 15,
+      "timestamp": "32m15s",
+      "file_path": "clips/first_half/clip_32m15s.mp4",
+      "file_size": 8157812,
+      "success": true
+    },
+    {
+      "clip_number": 131,
+      "filename": "clip_32m30s.mp4",
+      "start_time": 1950,
+      "duration": 15,
+      "timestamp": "32m30s",
+      "file_path": "clips/first_half/clip_32m30s.mp4",
+      "file_size": 9671723,
+      "success": true
+    },
+    {
+      "clip_number": 132,
+      "filename": "clip_32m45s.mp4",
+      "start_time": 1965,
+      "duration": 15,
+      "timestamp": "32m45s",
+      "file_path": "clips/first_half/clip_32m45s.mp4",
+      "file_size": 9388017,
+      "success": true
+    },
+    {
+      "clip_number": 133,
+      "filename": "clip_33m00s.mp4",
+      "start_time": 1980,
+      "duration": 15,
+      "timestamp": "33m00s",
+      "file_path": "clips/first_half/clip_33m00s.mp4",
+      "file_size": 8264234,
+      "success": true
+    },
+    {
+      "clip_number": 1,
+      "filename": "clip_00m00s.mp4",
+      "start_time": 0,
+      "duration": 15,
+      "timestamp": "00m00s",
+      "file_path": "clips/first_half/clip_00m00s.mp4",
+      "file_size": 8898402,
+      "success": true
+    },
+    {
+      "clip_number": 2,
+      "filename": "clip_00m15s.mp4",
+      "start_time": 15,
+      "duration": 15,
+      "timestamp": "00m15s",
+      "file_path": "clips/first_half/clip_00m15s.mp4",
+      "file_size": 9390665,
+      "success": true
+    },
+    {
+      "clip_number": 3,
+      "filename": "clip_00m30s.mp4",
+      "start_time": 30,
+      "duration": 15,
+      "timestamp": "00m30s",
+      "file_path": "clips/first_half/clip_00m30s.mp4",
+      "file_size": 9215214,
+      "success": true
+    },
+    {
+      "clip_number": 4,
+      "filename": "clip_00m45s.mp4",
+      "start_time": 45,
+      "duration": 15,
+      "timestamp": "00m45s",
+      "file_path": "clips/first_half/clip_00m45s.mp4",
+      "file_size": 9358646,
+      "success": true
+    },
+    {
+      "clip_number": 5,
+      "filename": "clip_01m00s.mp4",
+      "start_time": 60,
+      "duration": 15,
+      "timestamp": "01m00s",
+      "file_path": "clips/first_half/clip_01m00s.mp4",
+      "file_size": 9424962,
+      "success": true
+    },
+    {
+      "clip_number": 6,
+      "filename": "clip_01m15s.mp4",
+      "start_time": 75,
+      "duration": 15,
+      "timestamp": "01m15s",
+      "file_path": "clips/first_half/clip_01m15s.mp4",
+      "file_size": 9489838,
+      "success": true
+    },
+    {
+      "clip_number": 7,
+      "filename": "clip_01m30s.mp4",
+      "start_time": 90,
+      "duration": 15,
+      "timestamp": "01m30s",
+      "file_path": "clips/first_half/clip_01m30s.mp4",
+      "file_size": 9164604,
+      "success": true
+    },
+    {
+      "clip_number": 8,
+      "filename": "clip_01m45s.mp4",
+      "start_time": 105,
+      "duration": 15,
+      "timestamp": "01m45s",
+      "file_path": "clips/first_half/clip_01m45s.mp4",
+      "file_size": 9236756,
+      "success": true
+    },
+    {
+      "clip_number": 9,
+      "filename": "clip_02m00s.mp4",
+      "start_time": 120,
+      "duration": 15,
+      "timestamp": "02m00s",
+      "file_path": "clips/first_half/clip_02m00s.mp4",
+      "file_size": 9250821,
+      "success": true
+    },
+    {
+      "clip_number": 10,
+      "filename": "clip_02m15s.mp4",
+      "start_time": 135,
+      "duration": 15,
+      "timestamp": "02m15s",
+      "file_path": "clips/first_half/clip_02m15s.mp4",
+      "file_size": 10591965,
+      "success": true
+    },
+    {
+      "clip_number": 11,
+      "filename": "clip_02m30s.mp4",
+      "start_time": 150,
+      "duration": 15,
+      "timestamp": "02m30s",
+      "file_path": "clips/first_half/clip_02m30s.mp4",
+      "file_size": 9342036,
+      "success": true
+    },
+    {
+      "clip_number": 12,
+      "filename": "clip_02m45s.mp4",
+      "start_time": 165,
+      "duration": 15,
+      "timestamp": "02m45s",
+      "file_path": "clips/first_half/clip_02m45s.mp4",
+      "file_size": 8964379,
+      "success": true
+    },
+    {
+      "clip_number": 13,
+      "filename": "clip_03m00s.mp4",
+      "start_time": 180,
+      "duration": 15,
+      "timestamp": "03m00s",
+      "file_path": "clips/first_half/clip_03m00s.mp4",
+      "file_size": 9442062,
+      "success": true
+    },
+    {
+      "clip_number": 14,
+      "filename": "clip_03m15s.mp4",
+      "start_time": 195,
+      "duration": 15,
+      "timestamp": "03m15s",
+      "file_path": "clips/first_half/clip_03m15s.mp4",
+      "file_size": 9248178,
+      "success": true
+    },
+    {
+      "clip_number": 15,
+      "filename": "clip_03m30s.mp4",
+      "start_time": 210,
+      "duration": 15,
+      "timestamp": "03m30s",
+      "file_path": "clips/first_half/clip_03m30s.mp4",
+      "file_size": 8642927,
+      "success": true
+    },
+    {
+      "clip_number": 16,
+      "filename": "clip_03m45s.mp4",
+      "start_time": 225,
+      "duration": 15,
+      "timestamp": "03m45s",
+      "file_path": "clips/first_half/clip_03m45s.mp4",
+      "file_size": 9954489,
+      "success": true
+    },
+    {
+      "clip_number": 17,
+      "filename": "clip_04m00s.mp4",
+      "start_time": 240,
+      "duration": 15,
+      "timestamp": "04m00s",
+      "file_path": "clips/first_half/clip_04m00s.mp4",
+      "file_size": 9192663,
+      "success": true
+    },
+    {
+      "clip_number": 18,
+      "filename": "clip_04m15s.mp4",
+      "start_time": 255,
+      "duration": 15,
+      "timestamp": "04m15s",
+      "file_path": "clips/first_half/clip_04m15s.mp4",
+      "file_size": 8359901,
+      "success": true
+    },
+    {
+      "clip_number": 19,
+      "filename": "clip_04m30s.mp4",
+      "start_time": 270,
+      "duration": 15,
+      "timestamp": "04m30s",
+      "file_path": "clips/first_half/clip_04m30s.mp4",
+      "file_size": 9616926,
+      "success": true
+    },
+    {
+      "clip_number": 39,
+      "filename": "clip_09m30s.mp4",
+      "start_time": 570,
+      "duration": 15,
+      "timestamp": "09m30s",
+      "file_path": "clips/first_half/clip_09m30s.mp4",
+      "file_size": 8710330,
+      "success": true
+    },
+    {
+      "clip_number": 40,
+      "filename": "clip_09m45s.mp4",
+      "start_time": 585,
+      "duration": 15,
+      "timestamp": "09m45s",
+      "file_path": "clips/first_half/clip_09m45s.mp4",
+      "file_size": 8829379,
+      "success": true
+    },
+    {
+      "clip_number": 41,
+      "filename": "clip_10m00s.mp4",
+      "start_time": 600,
+      "duration": 15,
+      "timestamp": "10m00s",
+      "file_path": "clips/first_half/clip_10m00s.mp4",
+      "file_size": 9304585,
+      "success": true
+    },
+    {
+      "clip_number": 42,
+      "filename": "clip_10m15s.mp4",
+      "start_time": 615,
+      "duration": 15,
+      "timestamp": "10m15s",
+      "file_path": "clips/first_half/clip_10m15s.mp4",
+      "file_size": 9132585,
+      "success": true
+    },
+    {
+      "clip_number": 43,
+      "filename": "clip_10m30s.mp4",
+      "start_time": 630,
+      "duration": 15,
+      "timestamp": "10m30s",
+      "file_path": "clips/first_half/clip_10m30s.mp4",
+      "file_size": 9233702,
+      "success": true
+    },
+    {
+      "clip_number": 44,
+      "filename": "clip_10m45s.mp4",
+      "start_time": 645,
+      "duration": 15,
+      "timestamp": "10m45s",
+      "file_path": "clips/first_half/clip_10m45s.mp4",
+      "file_size": 9359348,
+      "success": true
+    },
+    {
+      "clip_number": 45,
+      "filename": "clip_11m00s.mp4",
+      "start_time": 660,
+      "duration": 15,
+      "timestamp": "11m00s",
+      "file_path": "clips/first_half/clip_11m00s.mp4",
+      "file_size": 9607269,
+      "success": true
+    },
+    {
+      "clip_number": 46,
+      "filename": "clip_11m15s.mp4",
+      "start_time": 675,
+      "duration": 15,
+      "timestamp": "11m15s",
+      "file_path": "clips/first_half/clip_11m15s.mp4",
+      "file_size": 9636084,
+      "success": true
+    },
+    {
+      "clip_number": 47,
+      "filename": "clip_11m30s.mp4",
+      "start_time": 690,
+      "duration": 15,
+      "timestamp": "11m30s",
+      "file_path": "clips/first_half/clip_11m30s.mp4",
+      "file_size": 8047049,
+      "success": true
+    },
+    {
+      "clip_number": 48,
+      "filename": "clip_11m45s.mp4",
+      "start_time": 705,
+      "duration": 15,
+      "timestamp": "11m45s",
+      "file_path": "clips/first_half/clip_11m45s.mp4",
+      "file_size": 8269938,
+      "success": true
+    },
+    {
+      "clip_number": 49,
+      "filename": "clip_12m00s.mp4",
+      "start_time": 720,
+      "duration": 15,
+      "timestamp": "12m00s",
+      "file_path": "clips/first_half/clip_12m00s.mp4",
+      "file_size": 9181830,
+      "success": true
+    },
+    {
+      "clip_number": 50,
+      "filename": "clip_12m15s.mp4",
+      "start_time": 735,
+      "duration": 15,
+      "timestamp": "12m15s",
+      "file_path": "clips/first_half/clip_12m15s.mp4",
+      "file_size": 9186667,
+      "success": true
+    },
+    {
+      "clip_number": 51,
+      "filename": "clip_12m30s.mp4",
+      "start_time": 750,
+      "duration": 15,
+      "timestamp": "12m30s",
+      "file_path": "clips/first_half/clip_12m30s.mp4",
+      "file_size": 8935522,
+      "success": true
+    },
+    {
+      "clip_number": 52,
+      "filename": "clip_12m45s.mp4",
+      "start_time": 765,
+      "duration": 15,
+      "timestamp": "12m45s",
+      "file_path": "clips/first_half/clip_12m45s.mp4",
+      "file_size": 9211130,
+      "success": true
+    },
+    {
+      "clip_number": 53,
+      "filename": "clip_13m00s.mp4",
+      "start_time": 780,
+      "duration": 15,
+      "timestamp": "13m00s",
+      "file_path": "clips/first_half/clip_13m00s.mp4",
+      "file_size": 8740889,
+      "success": true
+    },
+    {
+      "clip_number": 54,
+      "filename": "clip_13m15s.mp4",
+      "start_time": 795,
+      "duration": 15,
+      "timestamp": "13m15s",
+      "file_path": "clips/first_half/clip_13m15s.mp4",
+      "file_size": 9573557,
+      "success": true
+    },
+    {
+      "clip_number": 55,
+      "filename": "clip_13m30s.mp4",
+      "start_time": 810,
+      "duration": 15,
+      "timestamp": "13m30s",
+      "file_path": "clips/first_half/clip_13m30s.mp4",
+      "file_size": 9025149,
+      "success": true
+    },
+    {
+      "clip_number": 56,
+      "filename": "clip_13m45s.mp4",
+      "start_time": 825,
+      "duration": 15,
+      "timestamp": "13m45s",
+      "file_path": "clips/first_half/clip_13m45s.mp4",
+      "file_size": 9404238,
+      "success": true
+    },
+    {
+      "clip_number": 57,
+      "filename": "clip_14m00s.mp4",
+      "start_time": 840,
+      "duration": 15,
+      "timestamp": "14m00s",
+      "file_path": "clips/first_half/clip_14m00s.mp4",
+      "file_size": 7906633,
+      "success": true
+    },
+    {
+      "clip_number": 58,
+      "filename": "clip_14m15s.mp4",
+      "start_time": 855,
+      "duration": 15,
+      "timestamp": "14m15s",
+      "file_path": "clips/first_half/clip_14m15s.mp4",
+      "file_size": 7765706,
+      "success": true
+    },
+    {
+      "clip_number": 59,
+      "filename": "clip_14m30s.mp4",
+      "start_time": 870,
+      "duration": 15,
+      "timestamp": "14m30s",
+      "file_path": "clips/first_half/clip_14m30s.mp4",
+      "file_size": 8919564,
+      "success": true
+    },
+    {
+      "clip_number": 60,
+      "filename": "clip_14m45s.mp4",
+      "start_time": 885,
+      "duration": 15,
+      "timestamp": "14m45s",
+      "file_path": "clips/first_half/clip_14m45s.mp4",
+      "file_size": 9449879,
+      "success": true
+    },
+    {
+      "clip_number": 61,
+      "filename": "clip_15m00s.mp4",
+      "start_time": 900,
+      "duration": 15,
+      "timestamp": "15m00s",
+      "file_path": "clips/first_half/clip_15m00s.mp4",
+      "file_size": 8933645,
+      "success": true
+    },
+    {
+      "clip_number": 62,
+      "filename": "clip_15m15s.mp4",
+      "start_time": 915,
+      "duration": 15,
+      "timestamp": "15m15s",
+      "file_path": "clips/first_half/clip_15m15s.mp4",
+      "file_size": 9172475,
+      "success": true
+    },
+    {
+      "clip_number": 63,
+      "filename": "clip_15m30s.mp4",
+      "start_time": 930,
+      "duration": 15,
+      "timestamp": "15m30s",
+      "file_path": "clips/first_half/clip_15m30s.mp4",
+      "file_size": 8326841,
+      "success": true
+    },
+    {
+      "clip_number": 64,
+      "filename": "clip_15m45s.mp4",
+      "start_time": 945,
+      "duration": 15,
+      "timestamp": "15m45s",
+      "file_path": "clips/first_half/clip_15m45s.mp4",
+      "file_size": 9800453,
+      "success": true
+    },
+    {
+      "clip_number": 65,
+      "filename": "clip_16m00s.mp4",
+      "start_time": 960,
+      "duration": 15,
+      "timestamp": "16m00s",
+      "file_path": "clips/first_half/clip_16m00s.mp4",
+      "file_size": 7838489,
+      "success": true
+    },
+    {
+      "clip_number": 66,
+      "filename": "clip_16m15s.mp4",
+      "start_time": 975,
+      "duration": 15,
+      "timestamp": "16m15s",
+      "file_path": "clips/first_half/clip_16m15s.mp4",
+      "file_size": 10606369,
+      "success": true
+    },
+    {
+      "clip_number": 67,
+      "filename": "clip_16m30s.mp4",
+      "start_time": 990,
+      "duration": 15,
+      "timestamp": "16m30s",
+      "file_path": "clips/first_half/clip_16m30s.mp4",
+      "file_size": 8724669,
+      "success": true
+    },
+    {
+      "clip_number": 68,
+      "filename": "clip_16m45s.mp4",
+      "start_time": 1005,
+      "duration": 15,
+      "timestamp": "16m45s",
+      "file_path": "clips/first_half/clip_16m45s.mp4",
+      "file_size": 9690874,
+      "success": true
+    },
+    {
+      "clip_number": 69,
+      "filename": "clip_17m00s.mp4",
+      "start_time": 1020,
+      "duration": 15,
+      "timestamp": "17m00s",
+      "file_path": "clips/first_half/clip_17m00s.mp4",
+      "file_size": 9364586,
+      "success": true
+    },
+    {
+      "clip_number": 70,
+      "filename": "clip_17m15s.mp4",
+      "start_time": 1035,
+      "duration": 15,
+      "timestamp": "17m15s",
+      "file_path": "clips/first_half/clip_17m15s.mp4",
+      "file_size": 9403059,
+      "success": true
+    },
+    {
+      "clip_number": 71,
+      "filename": "clip_17m30s.mp4",
+      "start_time": 1050,
+      "duration": 15,
+      "timestamp": "17m30s",
+      "file_path": "clips/first_half/clip_17m30s.mp4",
+      "file_size": 8514665,
+      "success": true
+    },
+    {
+      "clip_number": 72,
+      "filename": "clip_17m45s.mp4",
+      "start_time": 1065,
+      "duration": 15,
+      "timestamp": "17m45s",
+      "file_path": "clips/first_half/clip_17m45s.mp4",
+      "file_size": 7554775,
+      "success": true
+    },
+    {
+      "clip_number": 73,
+      "filename": "clip_18m00s.mp4",
+      "start_time": 1080,
+      "duration": 15,
+      "timestamp": "18m00s",
+      "file_path": "clips/first_half/clip_18m00s.mp4",
+      "file_size": 8535904,
+      "success": true
+    },
+    {
+      "clip_number": 74,
+      "filename": "clip_18m15s.mp4",
+      "start_time": 1095,
+      "duration": 15,
+      "timestamp": "18m15s",
+      "file_path": "clips/first_half/clip_18m15s.mp4",
+      "file_size": 9952542,
+      "success": true
+    },
+    {
+      "clip_number": 75,
+      "filename": "clip_18m30s.mp4",
+      "start_time": 1110,
+      "duration": 15,
+      "timestamp": "18m30s",
+      "file_path": "clips/first_half/clip_18m30s.mp4",
+      "file_size": 9012052,
+      "success": true
+    },
+    {
+      "clip_number": 76,
+      "filename": "clip_18m45s.mp4",
+      "start_time": 1125,
+      "duration": 15,
+      "timestamp": "18m45s",
+      "file_path": "clips/first_half/clip_18m45s.mp4",
+      "file_size": 10851629,
+      "success": true
+    },
+    {
+      "clip_number": 134,
+      "filename": "clip_33m15s.mp4",
+      "start_time": 1995,
+      "duration": 15,
+      "timestamp": "33m15s",
+      "file_path": "clips/first_half/clip_33m15s.mp4",
+      "file_size": 8014631,
+      "success": true
+    },
+    {
+      "clip_number": 135,
+      "filename": "clip_33m30s.mp4",
+      "start_time": 2010,
+      "duration": 15,
+      "timestamp": "33m30s",
+      "file_path": "clips/first_half/clip_33m30s.mp4",
+      "file_size": 9137603,
+      "success": true
+    },
+    {
+      "clip_number": 136,
+      "filename": "clip_33m45s.mp4",
+      "start_time": 2025,
+      "duration": 15,
+      "timestamp": "33m45s",
+      "file_path": "clips/first_half/clip_33m45s.mp4",
+      "file_size": 8907825,
+      "success": true
+    }
+  ]
+}
