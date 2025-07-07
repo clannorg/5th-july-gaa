@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-1_analyze_clips.py - Clean GAA Kickout Analysis
-Video clips → Text descriptions of kickouts
+1_analyze_clips.py - GAA Turnover Detection
+Video clips → Text descriptions of turnovers/possession changes
 """
 
 import os
@@ -20,8 +20,8 @@ if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set")
 genai.configure(api_key=GEMINI_API_KEY)
 
-def analyze_clip_for_kickouts(clip_path, timestamp, half_name):
-    """Analyze a single clip for GAA kickouts"""
+def analyze_clip_for_turnovers(clip_path, timestamp, half_name):
+    """Analyze a single clip for GAA turnovers/possession changes"""
     try:
         # Upload video to Gemini
         video_file = genai.upload_file(path=clip_path)
@@ -34,87 +34,81 @@ def analyze_clip_for_kickouts(clip_path, timestamp, half_name):
         if video_file.state.name == "FAILED":
             return f"❌ Failed to process {clip_path}"
         
-        # GAA kickout analysis prompt - ULTRA STRICT
+        # GAA turnover analysis prompt
         prompt = f"""
         You are an expert GAA analyst watching a 15-second clip from the {half_name} at {timestamp}.
 
-        CRITICAL: GAA KICKOUTS ARE EXTREMELY RARE EVENTS. In a typical GAA match, there are only 15-25 kickouts in the ENTIRE 70+ minute game. In the first 10 minutes, expect 0-3 maximum.
+        GOAL: Detect GAA TURNOVERS (possession changes) with precise timing.
 
-        GOAL: Detect ONLY GENUINE OFFICIAL GAA KICKOUTS. When in doubt, always say NO.
+        GAA TURNOVER DEFINITION:
+        A turnover occurs when possession of the ball changes from one team to the other during active play.
 
-        MANDATORY KICKOUT SEQUENCE (ALL MUST BE CLEARLY VISIBLE):
-        1. TRIGGER: You must SEE the ball going out of play (shot wide/over/saved)
-        2. COMPLETE STOPPAGE: All play stops, referee signals
-        3. AREA CLEARANCE: All outfield players deliberately exit the 20m area
-        4. FIELD SPREAD: Players spread to midfield/opposition half
-        5. GROUND PLACEMENT: Goalkeeper places ball on ground at 20m line
-        6. STRUCTURED KICK: Goalkeeper takes run-up, kicks from stationary ball
-        7. AERIAL CONTEST: Multiple players contest high ball
+        COMMON GAA TURNOVER SCENARIOS:
+        1. INTERCEPTION: Player intercepts a pass intended for opponent
+        2. TACKLE: Player dispossesses opponent carrying the ball
+        3. FUMBLE/DROP: Player drops ball, opponent picks it up
+        4. BLOCK DOWN: Player blocks a kick/shot, opponent recovers
+        5. CONTESTED CATCH: High ball contested, opposite team wins it
+        6. LOOSE BALL: Ball becomes loose, opposite team gains control
+        7. STEAL: Player steals ball from opponent's possession
 
-        ULTRA-STRICT CRITERIA (MISSING ANY = NO KICKOUT):
-        ✓ You can SEE the trigger event (ball going out) in THIS clip
-        ✓ COMPLETE play stoppage visible (not during active play)
-        ✓ ALL players have CLEARED the 20-meter area completely
-        ✓ Players are SPREAD across the entire field (not bunched up)
-        ✓ Ball is placed on GROUND (not kicked from hands)
-        ✓ Clear PAUSE and setup time (not immediate clearance)
-        ✓ Goalkeeper takes PROPER run-up from behind ball
-        ✓ Multiple players contest the HIGH aerial ball
-        ✓ This is MATCH PLAY not warm-up/training
+        TURNOVER CRITERIA:
+        ✓ Clear change of possession from Team A to Team B (or vice versa)
+        ✓ Ball control transfers from one team to another
+        ✓ Moment of possession change is visible in the clip
+        ✓ This is active match play (not restarts like kickouts)
+        ✓ New team has clear control of the ball
 
-        ABSOLUTELY NEVER DETECT:
-        - Warm-up kicks or training drills
-        - Goalkeeper clearances during active play
-        - Any kick from hands
-        - Quick clearances without setup
-        - Free kicks, sideline kicks, or other restarts
-        - Shots or passes during active play
-        - Any kick when players haven't fully cleared area
-        - Throw-ins or any other restart
-        - If you can't see the trigger event that caused it
-        
+        DO NOT DETECT:
+        - Kickouts, throw-ins, or other official restarts
+        - Shots or passes that go out of play
+        - Fouls where play stops
+        - When possession doesn't clearly change
+        - Warm-up or training activities
+
         **OUTPUT FORMAT:**
-        KICKOUT: [YES/NO]
+        TURNOVER: [YES/NO]
         CONFIDENCE: [1-10]
         HALF: {half_name}
         CLIP_TIME: {timestamp}
         
-        IF KICKOUT = YES:
-        TRIGGER_EVENT: [What caused it]
-        EXACT_CONTACT_TIME: [X.X seconds when foot touches ball]
-        KICKING_TEAM: [Team A/Team B based on goalkeeper jersey]
-        PLAYER_POSITIONING: [Did players clear and spread? YES/NO]
+        IF TURNOVER = YES:
+        TURNOVER_TYPE: [Interception/Tackle/Fumble/Block/Contest/Loose Ball/Steal]
+        EXACT_MOMENT: [X.X seconds when possession changes]
+        TEAM_LOST_POSSESSION: [Team A/Team B based on jersey colors]
+        TEAM_GAINED_POSSESSION: [Team A/Team B based on jersey colors]
         
-        KICK_ANALYSIS:
-        KICK_DISTANCE: [Short/Medium/Long]
-        KICK_DIRECTION: [Left/Center/Right]
-        KICK_ACCURACY: [On target/Off target/Contested]
+        TURNOVER_DETAILS:
+        LOCATION: [Field position where turnover occurred]
+        METHOD: [How the turnover happened - detailed description]
+        PLAYER_INVOLVED: [Key players involved if visible]
         
-        POSSESSION_OUTCOME:
-        POSSESSION_WON_BY: [Team A/Team B/Contested/Unclear]
-        POSSESSION_LOCATION: [Field position where caught]
-        NEXT_ACTION: [What happened after possession]
+        BEFORE_TURNOVER:
+        TEAM_IN_POSSESSION: [Team A/Team B]
+        ACTIVITY: [What they were doing - passing/running/shooting]
+        
+        AFTER_TURNOVER:
+        TEAM_IN_POSSESSION: [Team A/Team B]
+        IMMEDIATE_ACTION: [What they did after gaining possession]
         
         JERSEY_COLORS:
         TEAM_A_COLORS: [Describe colors]
         TEAM_B_COLORS: [Describe colors]
-        GOALKEEPER_JERSEY: [Color of kicking goalkeeper]
         
-        TACTICAL_CONTEXT: [Full sequence description]
+        TACTICAL_CONTEXT: [Brief description of the turnover sequence]
 
-        IF KICKOUT = NO:
-        REASONING: [Why not an official kickout]
+        IF TURNOVER = NO:
+        REASONING: [Why no turnover occurred]
 
         REMEMBER: 
-        - GAA kickouts are EXTREMELY RARE - only 2-3 in first 10 minutes maximum
-        - When in doubt, ALWAYS say NO
-        - Must see COMPLETE sequence from trigger to aerial contest
-        - This is MATCH PLAY not training/warm-up
-        - Be ULTRA-CONSERVATIVE in detection
+        - Turnovers are common in GAA - expect 10-20 per 10 minutes
+        - Focus on clear possession changes during active play
+        - Be specific about the exact moment possession changes
+        - Distinguish between teams consistently by jersey colors
         """
         
         # Generate analysis
-        model = genai.GenerativeModel("gemini-2.5-pro")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         response = model.generate_content([video_file, prompt])
         
         # Clean up
@@ -126,16 +120,16 @@ def analyze_clip_for_kickouts(clip_path, timestamp, half_name):
         return f"❌ Error analyzing {clip_path}: {str(e)}"
 
 def main():
-    print("🥅 GAA KICKOUT ANALYSIS - STEP 1: VIDEO → TEXT (GEMINI 2.5 PRO)")
+    print("🔄 GAA TURNOVER ANALYSIS - STEP 1: VIDEO → TEXT")
     print("=" * 60)
     
     # Configuration
     TIME_LIMIT_MINUTES = 10  # Analyze first 10 minutes
-    MAX_WORKERS = 4  # Reduced for Pro model (slower but higher quality)
+    MAX_WORKERS = 8
     
     # Setup paths
     clips_base = Path("../3.5-video-splitting/clips/first_half")
-    output_dir = Path("results/kickout_analysis")
+    output_dir = Path("results/turnover_analysis")
     output_dir.mkdir(parents=True, exist_ok=True)
     
     if not clips_base.exists():
@@ -177,7 +171,7 @@ def main():
             # Extract timestamp from filename
             timestamp = video_file.stem.replace('clip_', '').replace('m', ':').replace('s', '')
             
-            future = executor.submit(analyze_clip_for_kickouts, str(video_file), timestamp, "first_half")
+            future = executor.submit(analyze_clip_for_turnovers, str(video_file), timestamp, "first_half")
             futures.append((future, video_file, timestamp))
         
         # Collect results with progress
@@ -206,7 +200,7 @@ def main():
     
     processing_time = time.time() - start_time
     
-    print(f"\n✅ CLIP ANALYSIS COMPLETE!")
+    print(f"\n✅ TURNOVER ANALYSIS COMPLETE!")
     print(f"⏱️  Time: {processing_time:.1f}s")
     print(f"📁 Results saved to: {output_dir}")
     print(f"\n🔄 Next step: Run '2_synthesize_events.py' to create timeline")
