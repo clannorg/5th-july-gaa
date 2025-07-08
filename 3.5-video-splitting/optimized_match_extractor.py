@@ -28,8 +28,8 @@ class OptimizedMatchExtractor:
         self.max_workers = max(1, self.total_cores - 2)  # Use 6 cores, leave 2 for system
         
         # Default paths
-        self.timeline_file = "../3-half-start-end/results/halftime_detection/match_timeline.json"
-        self.video_file = "../1-veo-download/downloads/gaa_match_20250705_142710.mp4"
+        self.timeline_file = "../3-half-start-end/results/match_timeline_corrected.json"
+        self.video_file = "../1-veo-download/downloads/kevy-game.mp4"
         
         print(f"🚀 OPTIMIZED GAA MATCH EXTRACTOR")
         print(f"💻 VM: {self.total_cores} cores, {psutil.virtual_memory().total / (1024**3):.1f}GB RAM")
@@ -45,7 +45,7 @@ class OptimizedMatchExtractor:
             timeline_data = json.load(f)
         
         # Extract timeline segments
-        timeline = timeline_data.get('timeline', {})
+        timeline = timeline_data.get('match_timeline', {})
         
         # Get half timings
         first_half = timeline.get('first_half', {})
